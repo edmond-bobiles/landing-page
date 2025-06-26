@@ -1,0 +1,19 @@
+Hero Section (top dark section):
+Width: 1200px
+Height: 500–600px
+
+Information Section (with 4 boxes):
+Width: 1200px
+Height: 400px
+
+Quote Section (gray quote block):
+Width: 1200px
+Height: 300–350px
+
+Call to Action Section (blue box):
+Width: 1200px
+Height: 200–250px
+
+Footer:
+Width: 100% (full width)
+Height: 80–100px
