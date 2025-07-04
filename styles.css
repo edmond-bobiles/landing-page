@@ -16,15 +16,27 @@ ul {
     gap: 16px;
 }
 
+button{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-size: 18px;
+}
+
 .one{
-    height: 750px;
+    height: 500px;
     background-color: #1F2937;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
 }
 
 .nav-container{
     display: flex;
     justify-content: space-between;
-    padding: 40px 140px 40px 300px;
+    padding: 30px 0px 30px 0px;
+    margin: 0 auto;
+    width: 65vw;
 }
 
 .logo {
@@ -32,5 +44,47 @@ ul {
     color: #F9FAF8;
 }
 
+.hero-main{
+    height: 35vh;
+    width: 65vw;
+    padding: 5px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.left-hero{
+    flex: 1 1 auto;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: start;
+    width: 35vw;
+}
+
+.left-hero button{
+    padding: 8px 24px 8px 24px;
+    border-radius: 12px;
+}
+
+.right-hero img{
+    height: 300px;
+    width: 600px;
+    flex-shrink: 0;
+}
+
+.main-text{
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.secondary-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
 
