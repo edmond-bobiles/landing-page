@@ -58,7 +58,7 @@ button{
     gap: 40px;
 }
 
-.left-hero{
+.hero-main .left{
     flex: 1 1 auto;
     padding: 0;
     margin: 0;
@@ -69,12 +69,12 @@ button{
     width: 35vw;
 }
 
-.left-hero button{
+.hero-main .left button{
     padding: 8px 24px 8px 24px;
     border-radius: 12px;
 }
 
-.right-hero img{
+.hero-main .right img{
     height: 300px;
     width: 600px;
     flex-shrink: 0; /* So the image doesn't shrink */
@@ -169,4 +169,20 @@ button{
     font-size: 24px;
     text-align: right;
     font-weight: 600;
+}
+
+.four{
+    height: 300px;
+    background-color: #FFFFFF;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container{
+    display: flex;
+    justify-content: ;
+    align-items: center;
+    border-style: dashed;
 }
