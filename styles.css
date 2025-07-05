@@ -141,3 +141,32 @@ button{
     text-align: center;
 }
 
+.three{
+    height: 500px;
+    background-color: #E5E7EB;
+    width: 100vw;
+}
+
+.quote-container{
+    height: 500px;
+    width: 55vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 16px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+    font-weight: 300;
+}
+
+.author{
+    font-size: 24px;
+    text-align: right;
+    font-weight: 600;
+}
